@@ -3,7 +3,7 @@ import React from 'react';
 const Category = ({ categories, selectedCategory, categoryJoke }) => {
 
 	return (
-		<div style={{marginTop: '3rem'}}>
+		<div style={{marginTop: '3rem', marginBottom: '3rem'}}>
 			<h1 className="f3">Category Joke</h1>
 			<div className='ph3 mb4'
 					 style={{marginBottom: '0.5rem'}}>
