@@ -12,7 +12,7 @@ const Category = ({ categories, selectedCategory, categoryJoke }) => {
 						return (
 							<button 
 							  type="button"
-							  className="f6 link dim br3 ph3 pv2 mb2 dib white bg-dark-blue"
+							  className="f6 br3 ph3 pv2 mb2 dib white bg-dark-blue"
 							  style={{margin: '0.25rem'}}
 							  key={i}
 							  value={category}

@@ -59,10 +59,11 @@ export class App extends Component {
     const { randomJoke, categories, categoryJoke } = this.state;
 
     return (  
-      <div className="App tc">
+      <div className="tc"
+           style={{paddingLeft: '2rem', paddingRight: '2rem'}}>
         <h1 className="f1">Chuck Norris Jokes</h1>
         <h1 className="f3">Random Joke</h1>
-        <button className="f6 link dim br3 ph3 pv2 mb2 dib white bg-orange"
+        <button className="f6 br3 ph3 pv2 mb2 dib white bg-orange"
                 onClick={this.onRandomJoke}>
           Get Joke!
         </button>
